@@ -6,7 +6,7 @@ const getAllRooms = async (req, res) => {
 
         return res.status(200).json({
             message: "Комнаты получены",
-            data: rooms._doc,
+            data: rooms,
         });
     } catch (err) {
         console.log(err.message);

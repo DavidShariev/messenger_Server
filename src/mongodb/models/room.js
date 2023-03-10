@@ -13,6 +13,11 @@ const RoomSchema = new mongoose.Schema(
                 ref: "User",
             },
         ],
+        messages: [
+            {
+                type: String,
+            },
+        ],
     },
     {
         timestamps: true,

@@ -1,4 +1,7 @@
-const addUser = (req, res) => {
+import RoomModel from "../../mongodb/models/room.js";
+import UserModel from "../../mongodb/models/user.js";
+
+const addUser = async (req, res) => {
     try {
     } catch (err) {
         console.log(err.message);
